@@ -1,5 +1,5 @@
 #### Run commands
-```
+
 # assuming you run a web facing nginx on host server
 # rememder to change ssl certificate/key path to fit your install
 `cp nginx.my.domain.tld.conf /etc/nginx/sites-available/`
@@ -33,4 +33,4 @@
 
 
 
-```
+
