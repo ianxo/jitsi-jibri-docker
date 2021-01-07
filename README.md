@@ -11,7 +11,8 @@
 ### edit DOCKER_HOST_ADDRESS=12.34.56.78 to match host wan IP
 
 ### Copy docker-compose.yml and .env into git sub dir
-`cp docker-compose.yml .env git-repo/.`
+`cp docker-compose.yml  git-repo/
+cp env.example git-repo/.env`
 
 ### Create volume dirs
 `mkdir -p git-repo/jitsi-meet-cfg/{web/transcripts,prosody,jicofo,jvb,jibri}`
